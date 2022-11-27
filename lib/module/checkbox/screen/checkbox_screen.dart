@@ -51,7 +51,7 @@ class CheckBoxScreen extends StatelessWidget {
                           controller.checkboxList[3].isChecked ||
                           controller.checkboxList[4].isChecked ||
                           controller.checkboxList[5].isChecked
-                      ? controller.checkboxList[6].isChecked
+                      ? controller.checkboxList.last.isChecked
                           ? true
                           : false
                       : true,
